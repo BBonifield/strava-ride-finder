@@ -5,3 +5,7 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+Athlete.create :strava_athlete_id => 343342,
+  :name => 'Bob Bonifield',
+  :location => 'Boulder, CO'

@@ -1,0 +1,6 @@
+<div id="map_canvas" style="height: 600px; width: 800px;"></div>
+
+<% content_for :bottom_scripts do %>
+  <script type='text/javascript' src='https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&libraries=visualization'></script>
+  <script type='text/javascript'>new HeatMap();</script>
+<% end %>
